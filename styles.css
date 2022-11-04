@@ -1,0 +1,91 @@
+body {
+	background: black;
+	/* font-family: "Handlee", cursive; */
+	/* font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", sans-serif; */
+}
+
+.postcard {
+	background: #ffffff;
+	width: 500px;
+	height: 370px;
+	margin: auto;
+	top: 50%;
+	left: 50%;
+	padding: 15px;
+	margin-top: 150px;
+}
+
+.textPostCard {
+	font-weight: lighter;
+}
+
+.postcard-header {
+	display: inline-flex;
+}
+
+.headerTitle {
+	width: 400px;
+	font-family: "Handlee", cursive;
+	font-weight: 500;
+}
+
+.postcardImg {
+	width: 200px;
+	margin-left: 40px;
+}
+
+.postcard-header img {
+	max-width: 60px;
+}
+
+.bodyPostCard {
+	display: inline-flex;
+	width: 495px;
+	font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", sans-serif;
+}
+
+.inputPostCard {
+	font-size: 18px;
+	font-family: "Handlee", cursive;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin-top: 10px;
+	width: 220px;
+	font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", sans-serif;
+}
+
+.postcard h1 {
+	margin: 0%;
+	font-size: 30px;
+}
+
+.postcard-footer {
+	padding: 10px;
+	text-align: center;
+}
+
+.postcard-footer input[type="submit"] {
+	border: none;
+	border-bottom: 1px solid gray;
+	height: 30px;
+	margin-bottom: 30px;
+	background-color: rgba(128, 128, 128, 0.508);
+}
+
+.body-left {
+	width: 50%;
+	text-align: justify;
+	font-size: 18px;
+}
+
+.body-right {
+	width: 50%;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+.body-right input {
+	display: block;
+	margin-left: 30px;
+}
